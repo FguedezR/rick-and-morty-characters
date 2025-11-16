@@ -72,10 +72,33 @@ table {
   background-color: #03b1c8;
 }
 
-ul {  
-  padding-top: 100px;
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 130px;
   list-style: none;
 }
 
+li {
+  border: 1px solid #60fbbf;
+  border-radius: 15px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
 
+li img {
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
 
+li strong {
+  font-weight: 800;
+}
+
+.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
